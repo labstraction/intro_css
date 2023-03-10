@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Roboto:ital,wght@0,300;0,700;1,100&display=swap');
+
+h1{
+    background-color: tomato;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+a{
+    background-color: crimson;
+}
+
+body{
+    background-color: #e9b9b9;
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-grosso{
+    font-size: xx-large;
+}
+
+.font-normale{
+    font-weight: 400;
+}
+
+#titolo-principale{
+    color: gold;
+}
+
+h4, h5{
+    color: green;
+}
+
+.font-grosso a{
+   color: white; 
+}
+
+.titolone{
+    width: 50%;
+    height: 500px;
+    -webkit-box-shadow: 14px 20px 41px -18px rgba(209,23,209,1);
+-moz-box-shadow: 14px 20px 41px -18px rgba(209,23,209,1);
+box-shadow: 14px 20px 41px -18px rgba(209,23,209,1);
+}
+
+.mamma{
+    background-color: darkorange;
+    width: 50%;
+    height: 50%;
+}
+
+.figlia{
+    width: 50%;
+    min-width: 200px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.primo{
+    background-color: aqua;
+    padding: 18px;
+}
+
+.secondo{
+    background-color: chartreuse;
+    margin: 20px 60px;
+}
+
+.terzo{
+    /* border-style: solid;
+    border-color: palevioletred;
+    border-width: 40px; */
+    height: 400px;
+    width: 800px;
+    border: solid 8px blue;
+    /* border-top-left-radius: 30px; */
+    border-radius: 30px 100px 2px 200px;
+    background-image: url("./assets/rana-di-vetro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.quarto{
+    background: rgb(9,9,121);
+    background: linear-gradient(351deg, rgba(9,9,121,1) 0%, rgba(101,84,7,1) 25%, rgba(185,5,5,1) 48%, rgba(84,144,82,1) 77%, rgba(0,212,255,1) 100%);  
+    display: inline-block;
+    color: white;
+    width: 300px;
+    height: 300px;
+}
+
+.quinto{
+    background-color: violet;
+    display: inline;
+}
